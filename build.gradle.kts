@@ -27,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "org.jskat.AppKt"
+    mainClassName = "org.jskat.JSkat"
 }
 
 tasks {
