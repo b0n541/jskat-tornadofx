@@ -69,5 +69,25 @@ class MonteCarloTreeSearchTest {
 
         println("2nd backpropagation")
         printTree(rootNode)
+
+        visited = select(rootNode)
+
+        println("3rd selection")
+        printTree(rootNode)
+
+        backpropagate(visited, 22)
+
+        println("3rd backpropagation")
+        printTree(rootNode)
+
+        visited = select(rootNode)
+
+        println("4th selection")
+        printTree(rootNode)
+
+        backpropagate(visited, 23)
+
+        println("4th backpropagation")
+        printTree(rootNode)
     }
 }
